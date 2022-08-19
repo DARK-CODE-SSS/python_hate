@@ -97,11 +97,12 @@ hr {
 
 #output {
     margin: 8px;
+    padding: 8px;
     background-color: white;
     border-radius: 2px;
     box-shadow: 2px;
     min-width: 50%;
-    min-height: 35px;
+    min-height: 25px;
 }
 
 .hero .copy {
