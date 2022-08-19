@@ -4,13 +4,13 @@ body {
     display: flex;
     flex-direction: column;
     box-sizing: border-box;
+    background-color: #1f2937;
 }
 
 .header, .footer, .title-section {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #1f2937;
     padding: 1em 8em;
 }
 
@@ -50,4 +50,75 @@ body {
     transition: 0.7s;
     border-radius: 10px;
     padding: 15px;
+}
+
+.hero .sub-hero-text {
+    text-align: center;
+}
+
+hr {
+    width: 99%;
+    color: white;
+    background-color: white;
+}
+
+.title-section {
+    padding: 8em;
+    display: flex;
+    justify-content: center;
+}
+
+.hero {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+
+.hero-text {
+    font-size: 48px;
+    font-weight: 700;
+    color: #F9FAF8;
+    text-align: center;
+}
+
+.main-function {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hero #input {
+    padding: 8px;
+    box-shadow: 2px;
+    border-radius: 5px;
+}
+
+#output {
+    margin: 8px;
+    background-color: white;
+    border-radius: 2px;
+    box-shadow: 2px;
+    min-width: 50%;
+    min-height: 35px;
+}
+
+.hero .copy {
+    background-color: #3882f6;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #F9FAF8;
+    padding: 4px 16px;
+    margin-top: 16px;
+    border: none;
+    display: flex;
+    align-items: center;
+    transition: all 0.5s ease-in-out;
+    transform: scale(1);
+}
+
+.hero .copy:hover {
+    transform: scale(1.15);
 }
