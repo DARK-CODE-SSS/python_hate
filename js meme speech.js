@@ -1,5 +1,7 @@
 var last_letter, user_input;
-user_input = input("What do you hate? ");
+let user_input;
+
+user_input=document.getElementById("input").value;
 last_letter = user_input.slice(-1);
 
 if (last_letter === "s") {
