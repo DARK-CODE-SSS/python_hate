@@ -1,7 +1,7 @@
 var last_letter, user_input;
 let user_input;
 
-document.getElementById("input_button").onclick =function(){
+document.getElementById("input_button").onclick = function(){
     user_input=document.getElementById("input").value;
 }
 
